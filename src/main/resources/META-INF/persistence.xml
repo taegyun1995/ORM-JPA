@@ -8,12 +8,12 @@
             Persistence unit for the JPA tutorial of the Hibernate Getting Started Guide
         </description>
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>org.halyph.sessiondemo.Event</class>
+        <class>jpa.helloJpa.Member</class>
 
         <properties>
             <!-- 필수 속성 -->
             <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver" />
-            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/jpa" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/orm-jpa" />
             <property name="javax.persistence.jdbc.user" value="root" />
             <property name="javax.persistence.jdbc.password" value="419914" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL8Dialect" />
@@ -22,7 +22,6 @@
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true" />
-            <property name="hibernate.jdbc.batch.size" value="10"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
         </properties>
 
