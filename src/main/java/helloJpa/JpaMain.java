@@ -1,4 +1,4 @@
-package jpa.helloJpa;
+package helloJpa;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -14,14 +14,11 @@ public class JpaMain {
         tx.begin();
 
         try {
-            Member member = em.find(Member.class, 200L);
-            member.setName("AAAAA");
+            Member member = new Member();
+            member.setUsername("C");
 
-            em.clear();
+            em.persist(member);
 
-            Member member2 = em.find(Member.class, 200L);
-
-            System.out.println("===============");
             tx.commit();
         } catch (Exception e) {
             tx.rollback();

@@ -8,7 +8,7 @@
             Persistence unit for the JPA tutorial of the Hibernate Getting Started Guide
         </description>
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
-        <class>jpa.helloJpa.Member</class>
+        <class>helloJpa.Member</class>
 
         <properties>
             <!-- 필수 속성 -->
@@ -22,7 +22,7 @@
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
-            <property name="hibernate.hbm2ddl.auto" value="create "/>
+            <property name="hibernate.hbm2ddl.auto" value="create"/>
             <property name="hibernate.jdbc.batch.size" value="10"/>
         </properties>
 
