@@ -10,6 +10,8 @@
         <provider>org.hibernate.ejb.HibernatePersistence</provider>
         <class>helloJpa.Member</class>
         <class>helloJpa.Team</class>
+        <class>helloJpa.Locker</class>
+        <class>helloJpa.Product</class>
 
         <properties>
             <!-- 필수 속성 -->
