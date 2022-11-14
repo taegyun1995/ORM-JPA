@@ -7,7 +7,8 @@ import java.util.List;
 @Entity
 public class Team {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     @Column(name = "TEAM_ID")
     private Long id;
 

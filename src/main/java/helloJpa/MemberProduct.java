@@ -6,7 +6,8 @@ import java.time.LocalDateTime;
 @Entity
 public class MemberProduct {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
 
     @ManyToOne

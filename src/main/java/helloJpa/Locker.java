@@ -5,7 +5,8 @@ import javax.persistence.*;
 @Entity
 public class Locker {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String name;

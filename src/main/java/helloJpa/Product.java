@@ -7,7 +7,8 @@ import java.util.List;
 @Entity
 public class Product {
 
-    @Id @GeneratedValue
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String name;
