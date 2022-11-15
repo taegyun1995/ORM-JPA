@@ -12,6 +12,11 @@
         <class>helloJpa.Team</class>
         <class>helloJpa.Locker</class>
         <class>helloJpa.Product</class>
+        <class>helloJpa.Item</class>
+        <class>helloJpa.Album</class>
+        <class>helloJpa.Book</class>
+        <class>helloJpa.Movie</class>
+        <class>helloJpa.MemberProduct</class>
 
         <properties>
             <!-- 필수 속성 -->
