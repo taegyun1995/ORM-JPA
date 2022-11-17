@@ -13,6 +13,8 @@
         <class>helloJpa.Book</class>
         <class>helloJpa.Movie</class>
         <class>helloJpa.MemberProduct</class>
+        <class>helloJpa.Parent</class>
+        <class>helloJpa.Child</class>
 
         <properties>
             <!-- 필수 속성 -->
