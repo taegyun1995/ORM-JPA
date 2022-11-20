@@ -15,6 +15,7 @@
         <class>helloJpa.MemberProduct</class>
         <class>helloJpa.Parent</class>
         <class>helloJpa.Child</class>
+        <class>helloJpa.AddressEntity</class>
 
         <properties>
             <!-- 필수 속성 -->
